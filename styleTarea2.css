@@ -1,0 +1,32 @@
+#caja {
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    }
+
+.cuadrados {
+    width: 200px;
+    height: 200px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.cuadrados:first-child {
+    background-color: red;
+}
+
+.cuadrados:nth-child(2) {
+    background-color: blue;
+}
+
+.cuadrados:last-child {
+    background-color: green;
+}
